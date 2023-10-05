@@ -1,6 +1,7 @@
 {
   "name": "portfolio_website",
   "version": "0.1.0",
+  "homepage": "https://anfanite396.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -12,6 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +37,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "react-waypoint": "^10.3.0",
+    "swiper": "^10.3.1"
   }
 }
