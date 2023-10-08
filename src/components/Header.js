@@ -10,7 +10,7 @@ const header = () => {
                 <li><a className="nav-link scrollto active" href="/portfolio1/#hero">Home</a></li>
                 <li><a className="nav-link scrollto" href="/portfolio1/#about">About</a></li>
                 <li><a className="nav-link scrollto" href="/portfolio1/#resume">Resume</a></li>
-                <li><a className="nav-link scrollto" href="/portfolio1/#services">Services</a></li>
+                <li><a className="nav-link scrollto" href="/portfolio1/#services">Engagements</a></li>
                 <li><a className="nav-link scrollto " href="/portfolio1/#portfolio">Portfolio</a></li>
                 {/* <li className="dropdown"><a href="/portfolio1/#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
                 <ul>

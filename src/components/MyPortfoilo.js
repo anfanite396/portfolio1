@@ -6,7 +6,7 @@ const MyPortfoilo = () => {
         // Initialize GLightbox
         const lightbox = GLightbox({
             selector: '.portfolio-lightbox', // CSS selector for elements to be included in the lightbox
-        //   touchNavigation: true, // Enable touch gestures for navigation
+          touchNavigation: true, // Enable touch gestures for navigation
         });
       }, []);
 

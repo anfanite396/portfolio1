@@ -11,6 +11,8 @@ import ContactMe from './ContactMe'
 import Footer from './Footer'
 
 import Swiper from 'swiper';
+import Isotope from 'isotope-layout';
+// import { Waypoint } from 'react-waypoint';
 import PureCounter from "@srexi/purecounterjs";
 
 (function() {
@@ -182,6 +184,7 @@ import PureCounter from "@srexi/purecounterjs";
     //       });
     //     }
     //   })
+
     // }
   
     /**
@@ -205,30 +208,30 @@ import PureCounter from "@srexi/purecounterjs";
     /**
      * Porfolio isotope and filter
      */
-    // window.addEventListener('load', () => {
-    //   let portfolioContainer = select('.portfolio-container');
-    //   if (portfolioContainer) {
-    //     let portfolioIsotope = new Isotope(portfolioContainer, {
-    //       itemSelector: '.portfolio-item'
-    //     });
+    window.addEventListener('load', () => {
+      let portfolioContainer = select('.portfolio-container');
+      if (portfolioContainer) {
+        let portfolioIsotope = new Isotope(portfolioContainer, {
+          itemSelector: '.portfolio-item'
+        });
   
-    //     let portfolioFilters = select('#portfolio-flters li', true);
+        let portfolioFilters = select('#portfolio-flters li', true);
   
-    //     on('click', '#portfolio-flters li', function(e) {
-    //       e.preventDefault();
-    //       portfolioFilters.forEach(function(el) {
-    //         el.classList.remove('filter-active');
-    //       });
-    //       this.classList.add('filter-active');
+        on('click', '#portfolio-flters li', function(e) {
+          e.preventDefault();
+          portfolioFilters.forEach(function(el) {
+            el.classList.remove('filter-active');
+          });
+          this.classList.add('filter-active');
   
-    //       portfolioIsotope.arrange({
-    //         filter: this.getAttribute('data-filter')
-    //       });
+          portfolioIsotope.arrange({
+            filter: this.getAttribute('data-filter')
+          });
   
-    //     }, true);
-    //   }
+        }, true);
+      }
   
-    // });
+    });
   
     /**
      * Portfolio details slider

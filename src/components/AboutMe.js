@@ -9,7 +9,6 @@ const AboutMe = () => {
             <div className="section-title">
             <span>About Me</span>
             <h2>About Me</h2>
-            {/* <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p> */}
             </div>
 
             <div className="row">
@@ -18,7 +17,6 @@ const AboutMe = () => {
                 <div className="content ps-lg-4 d-flex flex-column justify-content-center">
                 
                 <div className="row">
-                        <h4>Dipam Turkar</h4>
                         <p><em>I am a motivated software developer and engineering student with a strong commitment to delivering high-quality solutions. Detail-oriented, organized collaborator with a passion for continuous learning and growth in software development.</em></p>
                     <div className="col-lg-6">
                     <ul>
@@ -40,16 +38,16 @@ const AboutMe = () => {
                     <div className="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                     <div className="count-box">
                         <i className="bi bi-journal-richtext" style={{color: "color : #e67e29"}}></i>
-                        <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" className="purecounter"></span>
-                        <p><strong>Projects</strong> Worked on various open-source community hosted projects. </p>
+                        <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" className="purecounter"></span>
+                        <p><strong>Projects</strong> Worked on various open-source, community hosted and personal projects. </p>
                     </div>
                     </div>
 
                     <div className="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                     <div className="count-box">
                         <i className="bi bi-clock" style={{color: "color : #e67e29"}}></i>
-                        <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" className="purecounter"></span>
-                        <p><strong>Years of experience</strong> 3 Months </p>
+                        <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" className="purecounter"></span>
+                        <p><strong>Professional Experience</strong> 3 Months </p>
                     </div>
                     </div>
                 </div>
