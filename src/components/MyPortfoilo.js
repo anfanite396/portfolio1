@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react'
-import GLightbox from 'glightbox';
+// import GLightbox from 'glightbox';
 
 const MyPortfoilo = () => {
-      useEffect(() => {
-        // Initialize GLightbox
-        const lightbox = GLightbox({
-            selector: '.portfolio-lightbox', // CSS selector for elements to be included in the lightbox
-          touchNavigation: true, // Enable touch gestures for navigation
-        });
-      }, []);
+    //   useEffect(() => {
+    //     // Initialize GLightbox
+    //     const lightbox = GLightbox({
+    //         selector: '.portfolio-lightbox', // CSS selector for elements to be included in the lightbox
+    //       touchNavigation: true, // Enable touch gestures for navigation
+    //     });
+    //   }, []);
 
   return (
     <div>
