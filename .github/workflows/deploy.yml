@@ -21,15 +21,6 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Set up SSH keys
-      run: |
-        mkdir -p ~/.ssh
-        echo "$SSH_PRIVATE_KEY" > ~/.ssh/github
-        chmod 600 ~/.ssh/github
-        eval $(ssh-agent -s)
-        ssh-add ~/.ssh/github
-        ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
-
     - name: Build
       run: npm run build
 
